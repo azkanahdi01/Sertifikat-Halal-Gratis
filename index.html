@@ -44,24 +44,26 @@
                     <a href="#" class="text-2xl font-extrabold tracking-wide text-white">
                         Azka Nahdi
                     </a>
-                    <div class="hidden md:flex items-center gap-8">
+                    <div class="hidden lg:flex items-center gap-8">
                         <nav class="flex items-center gap-7">
                              <a href="#mengapa" class="text-gray-200 hover:text-white font-semibold transition-colors duration-300">Keunggulan</a>
                              <a href="#layanan" class="text-gray-200 hover:text-white font-semibold transition-colors duration-300">Layanan</a>
+                             <a href="#syarat" class="text-gray-200 hover:text-white font-semibold transition-colors duration-300">Syarat</a>
                              <a href="#portofolio" class="text-gray-200 hover:text-white font-semibold transition-colors duration-300">Portofolio</a>
                         </nav>
                         <a href="#kontak" class="flex items-center gap-2 bg-brand-gold text-white px-5 py-2.5 rounded-lg hover:bg-amber-600 transition-colors shadow-lg font-semibold">
                             <span>Hubungi Sekarang</span>
                         </a>
                     </div>
-                    <button id="menu-btn" class="md:hidden focus:outline-none text-white">
+                    <button id="menu-btn" class="lg:hidden focus:outline-none text-white">
                         <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
                     </button>
                 </div>
                  <!-- Mobile Menu -->
-                <div id="mobile-menu" class="hidden md:hidden bg-brand-dark rounded-lg mt-2 p-4 space-y-1">
+                <div id="mobile-menu" class="hidden lg:hidden bg-brand-dark rounded-lg mt-2 p-4 space-y-1">
                     <a href="#mengapa" class="block py-2 px-3 text-gray-200 hover:bg-gray-700 rounded-md">Keunggulan</a>
                     <a href="#layanan" class="block py-2 px-3 text-gray-200 hover:bg-gray-700 rounded-md">Layanan</a>
+                    <a href="#syarat" class="block py-2 px-3 text-gray-200 hover:bg-gray-700 rounded-md">Syarat</a>
                     <a href="#portofolio" class="block py-2 px-3 text-gray-200 hover:bg-gray-700 rounded-md">Portofolio</a>
                     <a href="#kontak" class="block mt-4 w-full text-center bg-brand-gold text-white px-4 py-3 rounded-lg hover:bg-amber-600 transition-colors font-semibold">Hubungi Sekarang</a>
                 </div>
@@ -156,14 +158,45 @@
             </div>
         </section>
         
+        <!-- Syarat Section -->
+        <section id="syarat" class="py-20 bg-brand-light">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-2">Syarat Utama Program SEHATI (Gratis)</h2>
+                <p class="text-lg text-gray-500 text-center mb-12 max-w-2xl mx-auto">Pastikan usaha Anda memenuhi kriteria berikut untuk kelancaran proses.</p>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold text-brand-green mb-4">Kriteria Pelaku Usaha</h3>
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mr-3 mt-1"></i><span>Memiliki NIB (Nomor Induk Berusaha) yang valid.</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mr-3 mt-1"></i><span>Termasuk dalam kategori Usaha Mikro atau Kecil.</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mr-3 mt-1"></i><span>Jenis produk tidak berisiko tinggi (bukan sembelihan, dll).</span></li>
+                            <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mr-3 mt-1"></i><span>Belum pernah menerima fasilitasi sertifikasi halal sebelumnya.</span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-2xl font-bold text-brand-green mb-4">Kriteria Produk & Komitmen</h3>
+                        <ul class="space-y-3 text-gray-600">
+                           <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mr-3 mt-1"></i><span>Menggunakan bahan yang sudah dipastikan kehalalannya.</span></li>
+                           <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mr-3 mt-1"></i><span>Proses produksi sederhana dan tidak terkontaminasi bahan haram/najis.</span></li>
+                           <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mr-3 mt-1"></i><span>Bersedia membuat pernyataan mandiri (Self Declare) mengenai produk.</span></li>
+                           <li class="flex items-start"><i class="fa-solid fa-check text-brand-green mr-3 mt-1"></i><span>Bersedia didampingi oleh P3H dari awal hingga akhir proses.</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mt-8 text-center bg-blue-100 text-blue-800 p-4 rounded-lg max-w-4xl mx-auto">
+                    <p><strong>Info:</strong> Belum punya NIB? Akan dibantu untuk proses pembuatannya.</p>
+                </div>
+            </div>
+        </section>
+        
         <!-- Portofolio & Testimonial Section -->
-        <section id="portofolio" class="py-20 bg-brand-light">
+        <section id="portofolio" class="py-20 bg-white">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-bold text-gray-800 text-center mb-2">Portofolio & Bukti Kepercayaan</h2>
                 <p class="text-lg text-gray-500 text-center mb-12 max-w-2xl mx-auto">Pengalaman dan testimoni nyata yang menjadi jaminan kualitas pendampingan.</p>
                 <div class="grid lg:grid-cols-5 gap-8 items-center">
                     <div class="lg:col-span-2 space-y-8">
-                        <div class="bg-white p-6 rounded-lg shadow-md flex items-start gap-6">
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-md flex items-start gap-6">
                             <div class="flex-shrink-0 flex items-center justify-center bg-emerald-100 text-brand-green rounded-full w-16 h-16">
                                <i class="fa-solid fa-school text-3xl"></i>
                             </div>
@@ -172,7 +205,7 @@
                                 <p class="text-gray-600">Berhasil memimpin proyek sertifikasi halal untuk seluruh kantin di Universitas Diponegoro.</p>
                             </div>
                         </div>
-                        <div class="bg-white p-6 rounded-lg shadow-md flex items-start gap-6">
+                        <div class="bg-gray-50 p-6 rounded-lg shadow-md flex items-start gap-6">
                             <div class="flex-shrink-0 flex items-center justify-center bg-emerald-100 text-brand-green rounded-full w-16 h-16">
                                 <i class="fa-solid fa-store text-3xl"></i>
                             </div>
