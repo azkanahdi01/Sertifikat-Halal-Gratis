@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendamping Halal Profesional - Azka Nahdi | Wajib Halal 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+              },
+              colors: {
+                'brand-dark': '#1a202c', 
+                'brand-green': '#0D5C53', 
+                'brand-gold': '#C5A869', 
+                'brand-light': '#f7fafc',
+              }
+            },
+          },
+        }
+    </script>
+</head>
+<body class="bg-brand-light font-sans text-brand-dark">
+
+    <!-- HERO & HEADER SECTION -->
+    <div class="relative bg-brand-dark text-white">
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Professional meeting background" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-r from-brand-dark to-brand-dark/60"></div>
+        </div>
+
+        <!-- Header -->
+        <header class="relative z-10">
+            <nav class="container mx-auto px-6 lg:px-8">
+                <div class="flex items-center justify-between h-24">
+                    <a href="#" class="text-2xl font-extrabold tracking-wide text-white">
+                        Azka Nahdi
+                    </a>
+                    <div class="hidden md:flex items-center gap-8">
+                        <nav class="flex items-center gap-7">
+                             <a href="#mengapa" class="text-gray-200 hover:text-white font-semibold transition-colors duration-300">Keunggulan</a>
+                             <a href="#layanan" class="text-gray-200 hover:text-white font-semibold transition-colors duration-300">Layanan</a>
+                             <a href="#portofolio" class="text-gray-200 hover:text-white font-semibold transition-colors duration-300">Portofolio</a>
+                        </nav>
+                        <a href="#kontak" class="flex items-center gap-2 bg-brand-gold text-white px-5 py-2.5 rounded-lg hover:bg-amber-600 transition-colors shadow-lg font-semibold">
+                            <span>Hubungi Sekarang</span>
+                        </a>
+                    </div>
+                    <button id="menu-btn" class="md:hidden focus:outline-none text-white">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+                 <!-- Mobile Menu -->
+                <div id="mobile-menu" class="hidden md:hidden bg-brand-dark rounded-lg mt-2 p-4 space-y-1">
+                    <a href="#mengapa" class="block py-2 px-3 text-gray-200 hover:bg-gray-700 rounded-md">Keunggulan</a>
+                    <a href="#layanan" class="block py-2 px-3 text-gray-200 hover:bg-gray-700 rounded-md">Layanan</a>
+                    <a href="#portofolio" class="block py-2 px-3 text-gray-200 hover:bg-gray-700 rounded-md">Portofolio</a>
+                    <a href="#kontak" class="block mt-4 w-full text-center bg-brand-gold text-white px-4 py-3 rounded-lg hover:bg-amber-600 transition-colors font-semibold">Hubungi Sekarang</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Content -->
+        <section id="beranda" class="relative z-10">
+             <div class="container mx-auto px-6 py-20 md:py-32">
+                <div class="max-w-3xl text-left">
+                    <h1 class="text-4xl md:text-6xl font-extrabold mb-5 leading-tight text-white">Jangan Sampai Usaha Anda Terhenti di 2026.</h1>
+                    <p class="text-lg md:text-xl text-gray-200 max-w-2xl mb-8">Sesuai peraturan Pemerintah, Oktober 2026 adalah batas akhir kewajiban sertifikasi halal. Dapatkan pendampingan P3H profesional untuk proses yang mudah, cepat, dan **tanpa biaya** melalui program SEHATI.</p>
+                    <div class="flex flex-wrap items-center gap-6 mb-10">
+                        <span class="flex items-center gap-2 font-semibold"><i class="fa-solid fa-check-circle text-brand-gold"></i> Gratis & Tanpa Biaya</span>
+                        <span class="flex items-center gap-2"><i class="fa-solid fa-check-circle text-brand-gold"></i> Proses Cepat</span>
+                        <span class="flex items-center gap-2"><i class="fa-solid fa-check-circle text-brand-gold"></i> Terverifikasi BPJPH</span>
+                    </div>
+                    <a href="#kontak" class="inline-block bg-brand-gold text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-amber-600 transition-transform hover:scale-105 shadow-2xl">
+                       Amankan Sertifikat Anda Sekarang
+                    </a>
+                </div>
+             </div>
+        </section>
+    </div>
+
+    <main>
+        <!-- Why Choose Me Section -->
+        <section id="mengapa" class="py-20 bg-brand-light">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-2">Jaminan Proses Sertifikasi Gratis & Profesional</h2>
+                <p class="text-lg text-gray-500 text-center mb-12 max-w-2xl mx-auto">Dapatkan lebih dari sekadar bantuan teknis; dapatkan kemitraan dan ketenangan untuk usaha Anda.</p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition-transform duration-300">
+                        <i class="fa-solid fa-award text-4xl text-brand-gold mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Berpengalaman & Terverifikasi</h3>
+                        <p class="text-gray-600">Sebagai P3H resmi dengan rekam jejak yang terbukti, termasuk menghalalkan seluruh kantin UNDIP.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition-transform duration-300">
+                        <i class="fa-solid fa-rocket text-4xl text-brand-gold mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Proses Cepat & Mudah</h3>
+                        <p class="text-gray-600">Saya paham alur birokrasi sehingga dapat memandu Anda menghindari kesalahan umum dan mempercepat proses.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center transform hover:-translate-y-2 transition-transform duration-300">
+                        <i class="fa-solid fa-handshake-angle text-4xl text-brand-gold mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Pendampingan Penuh</h3>
+                        <p class="text-gray-600">Anda tidak akan sendirian. Saya kawal proses dari awal pengajuan hingga sertifikat berhasil diterbitkan.</p>
+                    </div>
+                     <div class="bg-brand-green text-white p-8 rounded-lg shadow-xl text-center transform hover:-translate-y-2 transition-transform duration-300">
+                        <i class="fa-solid fa-star text-4xl text-brand-gold mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">100% Gratis</h3>
+                        <p class="text-emerald-200">Pendampingan ini tidak memungut biaya dari UMK karena merupakan bagian dari program pemerintah SEHATI.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Layanan Saya Section -->
+        <section id="layanan" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-2">Layanan yang Akan Anda Dapatkan</h2>
+                <p class="text-lg text-gray-500 text-center mb-12 max-w-2xl mx-auto">Semua yang Anda butuhkan untuk proses sertifikasi yang lancar dan bebas stres.</p>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-x-12 gap-y-8">
+                    <div class="flex items-start gap-4">
+                        <div class="bg-emerald-100 text-brand-green p-3 rounded-full"><i class="fa-solid fa-file-circle-check"></i></div>
+                        <div>
+                            <h3 class="text-lg font-bold">Analisis & Persiapan Dokumen</h3>
+                            <p class="text-gray-600">Membantu memeriksa dan melengkapi semua dokumen yang dibutuhkan, termasuk NIB dan data bahan baku.</p>
+                        </div>
+                    </div>
+                     <div class="flex items-start gap-4">
+                        <div class="bg-emerald-100 text-brand-green p-3 rounded-full"><i class="fa-solid fa-desktop"></i></div>
+                        <div>
+                            <h3 class="text-lg font-bold">Bantuan Pengisian SIHALAL</h3>
+                            <p class="text-gray-600">Memandu Anda langkah demi langkah dalam pengisian data di portal online resmi BPJPH untuk menghindari kesalahan.</p>
+                        </div>
+                    </div>
+                     <div class="flex items-start gap-4">
+                        <div class="bg-emerald-100 text-brand-green p-3 rounded-full"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div>
+                            <h3 class="text-lg font-bold">Verifikasi Proses Produk Halal (PPH)</h3>
+                            <p class="text-gray-600">Melakukan verifikasi langsung terhadap bahan yang digunakan dan proses produksi untuk memastikan kesesuaian.</p>
+                        </div>
+                    </div>
+                     <div class="flex items-start gap-4">
+                        <div class="bg-emerald-100 text-brand-green p-3 rounded-full"><i class="fa-solid fa-certificate"></i></div>
+                        <div>
+                            <h3 class="text-lg font-bold">Pengawalan Hingga Sertifikat Terbit</h3>
+                            <p class="text-gray-600">Memantau dan mengawal seluruh proses hingga sertifikat halal Anda resmi diterbitkan oleh BPJPH.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Portofolio & Testimonial Section -->
+        <section id="portofolio" class="py-20 bg-brand-light">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-gray-800 text-center mb-2">Portofolio & Bukti Kepercayaan</h2>
+                <p class="text-lg text-gray-500 text-center mb-12 max-w-2xl mx-auto">Pengalaman dan testimoni nyata yang menjadi jaminan kualitas pendampingan.</p>
+                <div class="grid lg:grid-cols-5 gap-8 items-center">
+                    <div class="lg:col-span-2 space-y-8">
+                        <div class="bg-white p-6 rounded-lg shadow-md flex items-start gap-6">
+                            <div class="flex-shrink-0 flex items-center justify-center bg-emerald-100 text-brand-green rounded-full w-16 h-16">
+                               <i class="fa-solid fa-school text-3xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Proyek Kantin UNDIP</h3>
+                                <p class="text-gray-600">Berhasil memimpin proyek sertifikasi halal untuk seluruh kantin di Universitas Diponegoro.</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md flex items-start gap-6">
+                            <div class="flex-shrink-0 flex items-center justify-center bg-emerald-100 text-brand-green rounded-full w-16 h-16">
+                                <i class="fa-solid fa-store text-3xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold">Puluhan UMK Sukses</h3>
+                                <p class="text-gray-600">Telah mendampingi puluhan UMK dari berbagai sektor hingga berhasil mendapatkan sertifikat halal.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-3 bg-brand-green text-white p-8 rounded-lg shadow-xl">
+                        <i class="fa-solid fa-quote-left text-4xl text-brand-gold mb-4"></i>
+                        <p class="text-xl italic mb-6">"Prosesnya ternyata jauh lebih mudah dari yang saya bayangkan. Mas Azka sangat sabar dan teliti, semua pertanyaan saya dijawab dengan jelas. Usaha saya sekarang sudah punya sertifikat halal, terima kasih banyak!"</p>
+                        <div>
+                            <p class="font-bold text-lg">- Ibu Hartini</p>
+                            <p class="text-emerald-200">Pemilik Usaha Kue Kering, Semarang</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="kontak" class="py-20 bg-brand-dark text-white">
+            <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Siap Amankan Masa Depan Usaha Anda?</h2>
+                 <p class="text-lg text-slate-300 max-w-2xl mx-auto mb-8">Jangan biarkan regulasi 2026 menjadi penghalang. Hubungi saya sekarang untuk konsultasi gratis dan mulailah langkah pertama menuju ketenangan bisnis.</p>
+                 <a href="https://wa.me/6287777111904?text=Halo Kak Azka, saya tertarik untuk program sertifikasi halal gratis. Mohon informasinya." target="_blank" class="inline-block bg-brand-gold text-white px-10 py-4 rounded-lg font-bold text-lg hover:bg-amber-600 transition-transform hover:scale-105 shadow-lg">
+                    <i class="fab fa-whatsapp"></i> Chat Saya di WhatsApp
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <a href="#" class="text-2xl font-bold text-white mb-2 inline-block">Azka Nahdi</a>
+            <p class="text-gray-400 mb-4">Pendamping Proses Produk Halal (P3H)</p>
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="https://wa.me/6287777111904?text=Halo Kak Azka, saya tertarik untuk program sertifikasi halal gratis. Mohon informasinya." target="_blank" class="text-gray-300 hover:text-brand-gold text-3xl transition-colors"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/nahdi.azka" target="_blank" class="text-gray-300 hover:text-brand-gold text-3xl transition-colors"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="text-gray-500 text-sm">
+                &copy; 2024 Azka Nahdi. All rights reserved.
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+</html>
